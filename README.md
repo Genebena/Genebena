@@ -1,35 +1,20 @@
 # Bienvenidos a mi perfil de GitHub 👋
 
-```html
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genebena | Portafolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+# Bienvenidos a mi perfil de GitHub 🦄🔮
 
-    <!-- Navegación -->
-    <header>
-        <nav>
-            <div class="logo">Genebena</div>
-            <ul>
-                <li><a href="#sobre-me">Sobre Mí</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Presentación -->
-    <section id="hero">
-        <h1>Hola, soy Genebena 👋</h1>
-        <p>Desarrollador Web & Especialista en Tecnología</p>
-    </section>
+Disfruto enormemente explorar los datos y aplicar algoritmos de Inteligencia Artificial para resolver problemas complejos y modelar soluciones innovadoras que se adapten a las demandas tecnológicas actuales.
 
-</body>
-</html>
-```
+## Sobre mí 🎨👑
+
+* **Nombre:** Geneiss Benavides
+* **Edad:** 22 años
+* **Género:** Femenino
+* **Carrera:** Ciencia de Datos e Inteligencia Artificial
+* **Gustos:** Dibujo, escribir libros, programar, diseño y programación de videojuegos 🎮✍️
+* **Disgustos:** No ser buena en algo rápidamente ⚡
+
+El apartado en el que más me siento interesada es en la programación y diseño de Videojuegos, combinando la creatividad de mis historias y dibujos con la lógica del desarrollo de software. 
+
+
 
