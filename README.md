@@ -1,16 +1,35 @@
-## Hi there 👋
+# Bienvenidos a mi perfil de GitHub 👋
 
-<!--
-**Genebena/Genebena** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genebena | Portafolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-Here are some ideas to get you started:
+    <!-- Navegación -->
+    <header>
+        <nav>
+            <div class="logo">Genebena</div>
+            <ul>
+                <li><a href="#sobre-me">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    <!-- Presentación -->
+    <section id="hero">
+        <h1>Hola, soy Genebena 👋</h1>
+        <p>Desarrollador Web & Especialista en Tecnología</p>
+    </section>
+
+</body>
+</html>
+```
+
