@@ -3,30 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genebena | Portafolio</title>
+    <title>Geneiss Benavides | Portafolio</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #cbd5e1;
+            --accent-color: #a855f7; /* Morado tecnológico */
+            --card-bg: #1e293b;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--card-bg);
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+        }
+        h1, h2, h3 { color: #ffffff; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .hero { text-align: center; padding: 2rem 0; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .hero p { font-size: 1.2rem; color: var(--accent-color); font-style: italic; }
+        .section {
+            background-color: var(--card-bg);
+            padding: 2rem;
+            border-radius: 0.75rem;
+            margin-bottom: 2rem;
+            border: 1px solid #334155;
+        }
+        ul { padding-left: 1.2rem; }
+        li { margin-bottom: 0.5rem; }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #9333ea; }
+        a { color: var(--accent-color); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
 
     <header>
-        <nav>
-            <h2>Genebena</h2>
-            <ul>
-                <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-            </ul>
-        </nav>
+        <h2>Genebena Portfolio 🦄🔮</h2>
     </header>
 
-    <section id="hero">
-        <h1>Hola, soy Genebena 👋</h1>
-        <p>Desarrollador Web & Especialista en Tecnología</p>
-    </section>
+    <div class="container">
+        <!-- Presentación -->
+        <div class="hero">
+            <h1>Hola, soy Geneiss Benavides 👋</h1>
+            <p>Ciencia de Datos e Inteligencia Artificial & Diseñadora de Videojuegos</p>
+        </div>
 
-    <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <p>Estudiante y desarrollador enfocado en soluciones tecnológicas.</p>
-    </section>
+        <!-- Sobre Mí -->
+        <div class="section">
+            <h2>Sobre mí 🎨👑</h2>
+            <p>Disfruto enormemente explorar los datos y aplicar algoritmos de Inteligencia Artificial para resolver problemas complejos y modelar soluciones innovadoras. Me interesa profundamente la programación y diseño de Videojuegos, combinando la creatividad de mis historias y dibujos con la lógica del desarrollo de software.</p>
+            <ul>
+                <li><strong>Edad:</strong> 22 años</li>
+                <li><strong>Género:</strong> Femenino</li>
+                <li><strong>Gustos:</strong> Dibujo, escribir libros, programar, diseño y programación de videojuegos 🎮✍️</li>
+                <li><strong>Disgustos:</strong> No ser buena en algo rápidamente ⚡</li>
+            </ul>
+        </div>
+
+        <!-- Proyectos -->
+        <div class="section">
+            <h2>Desarrollo Web y Maquetación 💻🚀</h2>
+            <h3>Copa Piecitos Bike</h3>
+            <p>Una landing page responsiva diseñada para un evento de ciclismo infantil en Plaza Viva Guayarte. Incluye la organización de categorías competitivas por edades (Walk Bike y Rin 20), detalles de inscripción y un diseño optimizado para el usuario.</p>
+            <p><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript, GitHub Pages</p>
+            <a href="https://github.io" target="_blank" class="btn">🚀 Ver Sitio en Vivo</a>
+        </div>
+    </div>
 
 </body>
 </html>
